@@ -10,6 +10,7 @@ class Infer:
         self.path_to_dict = path_to_dict or '/tmp/infer.dict'
         self.path_to_corpus = path_to_corpus or '/tmp/infer.mm'
         self.path_to_index = path_to_index or '/tmp/infer.index'
+        self.dictionary = self.corpus = self.documents = None
 
     def build(self, documents, stopwords=[], update=False):
         self.documents = documents
@@ -24,6 +25,8 @@ class Infer:
                 self.dictionary = corpora.Dictionary.load(self.path_to_dict)
             except IOError:
                 self.dictionary = corpora.Dictionary(texts)
+        else:
+            self.dictionary = corpora.Dictionary(texts)
 
         corpus = [self.dictionary.doc2bow(text, allow_update=True) for text in texts]
 
