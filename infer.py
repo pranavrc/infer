@@ -35,7 +35,11 @@ class Infer:
         self.corpus = corpora.MmCorpus(self.path_to_corpus)
 
     def infer(self, query, num_topics=2):
-        lsi = models.LsiModel(self.corpus, id2word=self.dictionary, num_topics=num_topics)
+        try:
+            lsi = models.LsiModel(self.corpus, id2word=self.dictionary, num_topics=num_topics)
+        except ValueError:
+            return []
+
         vec_bow = self.dictionary.doc2bow(query.lower().split())
         vec_lsi = lsi[vec_bow]
 
