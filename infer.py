@@ -32,21 +32,21 @@ class Infer:
         self.index = self.__load_from_fname(lambda: similarities.Similarity.load(self.path_to_index))
 
     def __load_from_fname(self, read_func):
-        ''' Private helper function for handing exceptions in initialization. '''
+        ''' Internal helper function for handing exceptions in initialization. '''
         try:
             return read_func()
         except IOError:
             return None
 
     def __setup_path(self, path):
-        ''' Create directory in path if it doesn't exist. '''
+        ''' Internal helper function to create directory in path if it doesn't exist. '''
         try:
             os.makedirs(path)
         except OSError as exception:
             if exception.errno != errno.EEXIST:
                 raise
 
-    def build(self, documents, stopwords=[], update=True, num_topics=2, num_features=500):
+    def build(self, documents, stopwords=set([]), update=True, num_topics=2, num_features=500):
         ''' Build the datasets from provided documents and stop words.
 
             update(default=True): Initialize a new dataset if False. Update existing if True.
@@ -54,7 +54,8 @@ class Infer:
             num_features: Number of features to be indexed. '''
         self.documents = documents
 
-        # Remove stop words and tokenize.
+        # Remove stop words and tokenize. Convert to set for efficiency in lookup.
+        stopwords = set(stopwords)
         texts = [[word for word in document.lower().split() if word not in stopwords] for document in self.documents]
         all_tokens = sum(texts, [])
 
