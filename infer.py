@@ -109,5 +109,18 @@ class Infer:
         return sims
 
 if __name__ == "__main__":
-    pass
+    documents = ["Human machine interface for lab abc computer applications",
+                 "A survey of user opinion of computer system response time",
+                 "The EPS user interface management system",
+                 "System and human system engineering testing of EPS",
+                 "Relation of user perceived response time to error measurement",
+                 "The generation of random binary unordered trees",
+                 "The intersection graph of paths in trees",
+                 "Graph minors IV Widths of trees and well quasi ordering",
+                 "Graph minors A survey"]
+    stoplist = set('for a of the and to in'.split())
+    infer = Infer()
+    infer.build(documents, stoplist)
+    sims = infer.infer("Human computer interaction")
+    print sims
 
