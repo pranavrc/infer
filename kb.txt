@@ -1,0 +1,186 @@
+Add New Canned Actions
+Add time spent on a Ticket
+Change account password
+Change email address and Notification preferences
+Change the Time and Language Settings
+Configurable settings for fields to be displayed on staff new ticket form
+Configure Email Notifications
+Configure My Queue
+Create and manage Priorities
+Create and manage statuses 
+Create Embeddable widgets
+Creating Roles for your Staff
+Credentials of Account administrator
+Details on SSL certificate for your HappyFox custom domain
+Download Invoice option for subscribers
+Embed a contact form widget to your webpage
+HappyFox account IP Change
+Managing staff settings
+Outgoing emails to users not working after the migration
+Setting up a FROM email ID with your domain name
+Setup contact notifications
+Setup forum notifications
+Setup staff notifications
+Setup system notifications
+Staff login and password reset
+Access deleted tickets log
+Can I change the email id of a staff member as an admin?
+Can I recover a deleted ticket?
+Can I reset the password for a staff member, as an admin?
+Can we delete a staff account in HappyFox?
+How do I re-assign tickets from one staff to another staff in bulk?
+Increasing the number of tickets in tickets list page
+Why am I not receiving email notifications?
+Add Customer Contacts
+Export Contacts
+Import contacts
+Manage Contacts Groups
+Manage custom contact field
+Configure Email Categories
+Configure Gmail to Forward Emails
+Configure Mac Mail settings to Forward Emails
+Configure Microsoft Exchange to Forward Emails
+Configure Mozilla Thunderbird settings to Forward Emails
+Configure MS Outlook Settings to Forward Emails
+Converting incoming emails into tickets
+How to get a HappyFox account?
+Possible errors while your account is created
+Create ticket via email
+Create ticket via Support Center
+Check ticket status
+Replying to tickets
+Search for your group/organization tickets
+Search Knowledge Base for answers
+Create your help desk account
+Manage password
+Manage user profile
+Set language preference
+About staff panel
+Add Staff
+Assign Tickets
+Create a personalized ticket queue
+Managing staff members in HappyFox - Edit, Deactivate
+Re-assign tickets to different staff
+Set the landing page 
+Setup Roundrobin assignment
+Subscribe to a ticket
+Working with My Queue and Status Views
+Access Support center and customer portal
+Create Knowledge Base Content
+Creating SEO friendly URLs for KB articles
+Knowledge Base and Support Center Settings
+Organize your Knowledge base
+Setup and manage Community Forums
+Set visibility preferences for Support Center and Knowledge Base
+Add a private note
+Add CC and BCC fields
+Add Private Notes to tickets from Staff reply emails
+Add related ticket
+Add Tags to a ticket
+Attach files to a ticket
+Collaborate with internal support staff through Private Notes
+Creating a new ticket
+Creating a Ticket
+Find solutions through Knowledge Base: Self-service
+Forward Ticket
+Handling custom ticket fields
+How to make Email Address optional while creating a new ticket
+Identify CC'ed or BCC'ed tickets
+Mass update ticket custom fields
+Merge Tickets
+Move tickets between Categories
+Perform mass actions
+Perform quick reply
+Perform ticket level actions via email
+Print Ticket
+Redirect emails sent to personal (or non-category) email IDs
+Reopen closed tickets on customer reply (without using Smart Rule)
+Replying to a Ticket
+Replying to Tickets
+Respond to ticket using canned action
+Search for tickets by due date, using advanced Search
+Search for tickets that breached SLA, using advanced Search
+Set the number of tickets per page
+Setting due date on a ticket
+Split a ticket
+Subscribing to updates on a ticket
+Understand ticket summary page
+Update tickets with inline images
+Use advanced search in HappyFox
+Utilize rich text editor for ticket response
+View all unassigned tickets
+Add subscribers using Smart Rules
+Create an Archive of All Staff Responses
+Create and Manage Smart Rules
+Create a new Work Schedule
+Set Category as Action in Smart Rules
+Setup Due Date as Condition or Action in Smart Rules
+Use canned Actions for frequent replies
+Enable integration with Batchbook - Social CRM
+Enable Integration with Facebook
+Enable integration with FreshBooks
+Enable Integration with Google Single Sign On
+Enable integration with Highrise
+Enable integration with Hively - Customer Satisfaction Survey App
+Enable Integration with Infusionsoft
+Enable integration with JIRA
+Enable Integration with LogMeIn Rescue
+Enable integration with Magento
+Enable integration with Nicereply
+Enable integration with Olark
+Enable Integration with Onelogin
+Enable integration with P3chat
+Enable Integration with Salesforce
+Enable integration with ScreenR
+Enable Integration with SmartSignin
+Enable integration with SnapEngage
+Enable integration with SurveyGizmo
+Enable integration with SurveyMonkey
+Enable integration with Twilio
+Enable integration with Webhooks
+Enable integration with Zapier
+Enable integration with Zoho CRM
+Setting up an app on Facebook - for enabling facebook option for Support Center Login
+Setting up an app on Twitter - for enabling facebook option for Support Center Login
+Setting up your Support Widget
+Add company name, logo and colors
+Customize Support Center with Custom CSS
+Personalize your HappyFox domain name
+April 2012 - Release notes
+April 2013 - Release notes
+April 2014 - Release notes
+August 2013 - Release notes (Minor)
+Changes in your new Support Center
+December 2012- Release notes
+December 2012- Release notes (Minor)
+December 2013- Release notes
+February 2012 - Release notes
+February 2013 - Release notes
+January 2013 - Release notes
+January 2014 - Release notes
+July 2012 - Release notes
+June 2013 - Release notes
+March 2012 - Release notes
+March 2014 - release notes
+May 1, 2014-Release Notes (Minor)
+May 19, 2014-Release Notes
+May 2, 2014-Release Notes (Minor)
+November 2013 - Release notes
+October 2012 - Release notes
+October 2013 - Release notes
+September 2012 - Release notes
+September 2013 - Release notes
+Analyze response stats
+Analyze staff activity
+Analyze Staff Performance
+Analyze your customer activity
+Create a report
+Decoding a Report
+Life cycle reports
+Measure SLA performance
+Scheduled reports
+Understand your dashboard
+HOWTO: Calculate ticket resolution time considering Business Hours (excluding non-working hours, weekends and holidays)
+Restrict access to HappyFox based on user IP
+Handling Service Level Agreements
+Identify SLA Breaches
